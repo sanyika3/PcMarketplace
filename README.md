@@ -1,5 +1,5 @@
 
-A Következő parancsokat futtatásához szükséges a Node.js legfrissebb verziója és a python legfrisebb verziója!
+A Következő parancsok futtatásához szükséges a Node.js legfrissebb verziója és a python legfrisebb verziója!
 
 Telepítés (cmd-ben (parancssor) az adott mappában, ahova a webalkalmazást letöltötted):  
 ```bash
