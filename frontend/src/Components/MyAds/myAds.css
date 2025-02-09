@@ -1,0 +1,95 @@
+.my-ads{
+    width: 100%;
+    height: flex;
+    flex-direction: column;
+    background-color: #121212;
+}
+
+.my-ads h2{
+    font-size: 28px;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 40px;
+    padding-top: 40px;
+}
+.my-ads ul{
+    list-style-type: none;
+    width: 80%;
+    max-width: 600px;
+    padding-left: 50px;
+}
+.my-ads li{
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    margin-bottom: 20px;
+}
+.my-ads li:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 8px 20px rgba(192, 192, 192, 0.3), 
+                0px 4px 10px rgba(192, 192, 192, 0.2);
+}
+.my-ads li h3{
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+.my-ads li p{
+    font-size: 18px;
+    color: #b0b0b0
+}
+.my-ads li a{
+    color: #9b59b6; 
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.my-ads a:hover{
+    text-decoration: none;
+}
+.ad-content{
+    display: flex;
+}
+.ad-image{
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.ad-details{
+    flex: 1;
+}
+.ad-details button{
+    width: auto;
+}
+.modify:hover {
+    background-color: green;
+  }
+.delete-button:hover{
+    background-color: red;
+}
+  @media (max-width: 768px) {
+.my-ads{
+        height: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.my-ads ul{
+        width: 90%;
+  }
+  .my-ads li h3{
+    font-size: 15px;
+  }
+  .my-ads li p{
+    font-size: 12px;
+  }
+  .delete-button{
+    font-size: small;
+  }
+  .modify{
+    font-size: small;
+  }
+}

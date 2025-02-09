@@ -1,0 +1,23 @@
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.row{
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  align-content: flex-start; 
+  gap: 10px; 
+  padding-left: 190px;
+}
+@media (max-width: 768px) {
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+}
