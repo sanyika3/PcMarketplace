@@ -35,4 +35,8 @@ url amelyen eléred a webalkalmazást webböngészőben ha sikeresen futtattad a
 ```bash
 http://127.0.0.1:8000/  
 ```
+SuperUser:
+Username: admin
+Password:  admin12345
+
 
